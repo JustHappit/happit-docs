@@ -29,14 +29,14 @@ Notes:
 Happit.setTheme({
     // background color used basically everywhere
     // default: #FFF
-    mainBackgroundColor: string,
-    // secondary background color used to bring contrast in some places
-    // default: #00aeff
-    contrastBackgroundColor: string,
+    backgroundColor: string,
     // text color used in all typography elements
     // default: #000
-    mainTextColor: string,
-    // text color used in all elements which have the contrast background color
+    textColor: string,
+    // color used to bring contrast in some elements (e.g. backgrounds and buttons)
+    // default: #00aeff
+    contrastColor: string,
+    // text color used in all elements which have the contrast color as background
     // default: #FFF
     contrastTextColor: string,
     /*
@@ -51,14 +51,17 @@ Happit.setTheme({
     // Overrides are for overriding the main theme in certain elements
     // default: not set
     overrides: {
-        // background color used on Happspot callout title area
-        calloutTitleBackgroundColor: string,
-        // text color used for Happspot callout title area
-        calloutTitleTextColor: string,
-        // background color used on Happspot callout content area
-        calloutBackgroundColor: string,
-        // text color used on Happspot callout content area
-        calloutTextColor: string
+        // Happspot callout
+        callout: {
+            // background color used on title area
+            titleBackgroundColor: string,
+            // text color used in title area
+            titleTextColor: string,
+            // background color used on content area
+            backgroundColor: string,
+            // text color used in content area
+            textColor: string
+        }
     }
 })
 ```
