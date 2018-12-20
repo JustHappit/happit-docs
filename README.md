@@ -11,3 +11,9 @@ Every now and then getting lost in new, updated or not-so-frequently used soluti
 We have a public JS API which can be used when Happit is enabled in your environment. It contains functionalities such as custom theming.
 
 [See documentation](./docs/js-api.md)
+
+## Data transfer
+
+There's this popular question about the data we are transferring between the client and our servers. It's very well justifiable question and we do understand the concerns. Therefore in the documentation below we have written what kind of data there is.
+
+[See documentation](./docs/data-transfer.md)
