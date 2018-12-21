@@ -38,6 +38,8 @@ Data given by the user is sent on these events
 - Modify a Happspot (save/publish)
 - Delete a Happspot
 - Click on "Got it!"
+- Create a sequence (save/publish)
+- Update a sequence (save/publish)
 
 Paths:
 
