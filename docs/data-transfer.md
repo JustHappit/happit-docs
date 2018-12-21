@@ -43,6 +43,7 @@ Paths:
 
 - `/api/Hotspot`
 - `/api/HotspotVersion`
+- `/api/Sequence`
 
 [See data models](./data-transfer/happspot.md)
 
