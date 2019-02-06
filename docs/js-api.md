@@ -57,10 +57,14 @@ Happit.setTheme({
             titleBackgroundColor: string,
             // text color used in title area
             titleTextColor: string,
+            // font size used in title area
+            titleTextSize: number,
             // background color used on content area
             backgroundColor: string,
             // text color used in content area
-            textColor: string
+            textColor: string,
+            // font size used in content area
+            textSize: number
         }
     }
 })
