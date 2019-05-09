@@ -111,6 +111,16 @@ Paths:
 
 [See data models](./data-transfer/diagnostics.md)
 
+## Telemetry
+
+There's only write operations related to telemetry. Does not include any user specific information.
+
+Paths:
+
+- `/graphql`
+
+[See data models](./data-transfer/telemetry.md)
+
 ## Injection endpoint
 
 There's only read operations related to injection script. Injection endpoint is the main entry point for Happit. It is added by system administrators or by the Happit browser extension. The address contains only the globally unique application identifier and no other information is passed to it.
