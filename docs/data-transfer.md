@@ -49,6 +49,30 @@ Paths:
 
 [See data models](./data-transfer/happspot.md)
 
+## User requests
+
+### Read
+
+- Content admins: All user requests created for the application
+- Users: All user requests created by themselves for the application
+
+*Only required data to show the user requests in correct places with given content.*
+
+### Write
+
+Data given by the user is sent on these events
+
+- Create an user request
+- Modify an user request
+- Delete an user request
+- Promote an user request
+
+Paths:
+
+- `/graphql`
+
+[See data models](./data-transfer/user-request.md)
+
 ## Settings
 
 There's only read operations related to settings. These are the settings configured on tenant and application level in Happit Portal.
@@ -76,6 +100,26 @@ There's only read operations related to automatic translations. Users can use au
 - `/graphql`
 
 [See data models](./data-transfer/translations.md)
+
+## Diagnostics
+
+There's only write operations related to diagnostics. In case of certain errors, error descriptions are sent. Does not include any user specific information.
+
+Paths:
+
+- `/graphql`
+
+[See data models](./data-transfer/diagnostics.md)
+
+## Telemetry
+
+There's only write operations related to telemetry. Does not include any user specific information.
+
+Paths:
+
+- `/graphql`
+
+[See data models](./data-transfer/telemetry.md)
 
 ## Injection endpoint
 
